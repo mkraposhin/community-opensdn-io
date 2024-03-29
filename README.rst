@@ -55,7 +55,7 @@ documentation generated from the Controller source code.
 for deploying ???
 
 12. https://github.com/OpenSDN-io/tf-packages provides spec files for
- RPM packages generation of OpenSDN components and modules.
+RPM packages generation of OpenSDN components and modules.
 
 13. https://github.com/OpenSDN-io/tf-analytics stores the source code of
 OpenSDN Analytics component.
