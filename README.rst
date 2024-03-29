@@ -26,7 +26,7 @@ components of OpenSDN, such as:
 * OpenSDN Controller that stores RIB information;
 
 * OpenSDN vRouter Agent that programmes vRouter Forwarder (converts RIB
- into FIB);
+  into FIB);
 
 * OpenSDN Config that manages high-level network configurations;
 
