@@ -17,8 +17,8 @@ List of OpenSDN repositories
  the project.
 
 3. https://github.com/OpenSDN-io/tf-vrouter stores the data plane components of
- OpenSDN (vRouter Forwarder module), namely: a) a kernel module (vrouter.ko)
- and b) a DPDK application for forwarding packages between interfaces.
+OpenSDN (vRouter Forwarder module), namely: a) a kernel module (vrouter.ko)
+and b) a DPDK application for forwarding packages between interfaces.
 
 4. https://github.com/OpenSDN-io/tf-controller stores the control plane
  components of OpenSDN, such as:
