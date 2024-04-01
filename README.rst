@@ -33,10 +33,10 @@ components of OpenSDN, such as:
 * and other components and modules.
 
 5. https://github.com/OpenSDN-io/tf-dev-env repository is used to initialize
-development environment of OpenSDN: a container to compile all components 
+development environment of OpenSDN, i.e. a container to compile all components
 and modules of the project and to build the corresponding RPM packages.
 
-6. https://github.com/OpenSDN-io/tf-common stores common code and library
+6. https://github.com/OpenSDN-io/tf-common stores common code and libraries
 for Controller and Analytics components of OpenSDN technology.
 
 7. https://github.com/OpenSDN-io/tf-container-builder is used to create
@@ -106,7 +106,7 @@ OpenSDN deployment.
 OpenSDN plugin.
 
 28. https://github.com/OpenSDN-io/tf-tripleo-heat-templates keeps tripleO templates
-for OpenSDN heat plugin.
+for OpenSDN OpenStack Heat plugin.
 
 29. https://github.com/OpenSDN-io/tf-third-party-packages stores RPM specs to build
 third party packages for OpenSDN components and modules.
@@ -123,7 +123,7 @@ OpenContrail and Tungsten Fabric).
 33. https://github.com/OpenSDN-io/tf-dpdk contains DPDK (https://www.dpdk.org/)
 technology sources used in the OpenSDN data plane component.
 
-34. https://github.com/OpenSDN-io/tf-build is a collection of SCons 
+34. https://github.com/OpenSDN-io/tf-build is a collection of SCons
 recipes used to build the OpenSDN Virtual Network Controller: stores SConstruct
 and rules.py files.
 
