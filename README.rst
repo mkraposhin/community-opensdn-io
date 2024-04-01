@@ -51,8 +51,8 @@ to install OpenSDN as the microservices architecture.
 10. https://github.com/OpenSDN-io/doxygen-docs is a storage for the doxgen
 documentation generated from the Controller source code.
 
-11. https://github.com/OpenSDN-io/tf-kolla-ansible contains Kolla-Ansible scripts
-for deploying ???
+11. https://github.com/OpenSDN-io/tf-kolla-ansible contains a modified version
+of OpenStack Kolla Ansible for running with OpenSDN.
 
 12. https://github.com/OpenSDN-io/tf-packages provides spec files for
 RPM packages generation of OpenSDN components and modules.
@@ -64,7 +64,9 @@ OpenSDN Analytics component.
 and scripts for OpenSDN CI/CD (https://gerrit.opensdn.io/) using
 Jenkins (https://www.jenkins.io/).
 
-15. https://github.com/OpenSDN-io/tf-vnc ??? is empty repository
+15. https://github.com/OpenSDN-io/tf-vnc stores default.xml file which is used
+to store OpenSDN build directory structure (list of sub-directories and their
+correspondence to OpenSDN repositories).
 
 16. https://github.com/OpenSDN-io/tf-charms stores configuration files for
 Juju charms for OpenSDN services.
@@ -90,45 +92,46 @@ charts which helps to deploy OpenSDN networking components as microservices.
 23. https://github.com/OpenSDN-io/tf-neutron-plugin provides OpenStack Neutron
 plugin for OpenSDN.
 
-24. https://github.com/OpenSDN-io/tf-heat-plugin provides OpenSDN heat plugin ???.
+24. https://github.com/OpenSDN-io/tf-heat-plugin provides an OpenSDN plugin
+for OpenStack Heat.
 
-25. https://github.com/OpenSDN-io/tf-dev-test is a development tool for 
-testing OpenSDN deployments by means of various test suites and methods.
+25. https://github.com/OpenSDN-io/tf-dev-test is an orchestrating repository
+for all OpenSDN tests (tf-deployment-test, tf-sanity and others) and is responsible
+for high level operations on tests suites.
 
-26. https://github.com/OpenSDN-io/tf-deployment-test contains to run deployment
-tests of OpenSDN. ??? difference to tf-dev-test ?
+26. https://github.com/OpenSDN-io/tf-deployment-test contains tests for
+OpenSDN deployment.
 
-27. https://github.com/OpenSDN-io/tf-deployers-containers will be removed soon ???
-
-28. https://github.com/OpenSDN-io/tf-tripleo-puppet contains tripelO
+27. https://github.com/OpenSDN-io/tf-tripleo-puppet contains tripelO
 OpenSDN plugin.
 
-29. https://github.com/OpenSDN-io/tf-tripleo-heat-templates keeps tripleO templates
+28. https://github.com/OpenSDN-io/tf-tripleo-heat-templates keeps tripleO templates
 for OpenSDN heat plugin.
 
-30. https://github.com/OpenSDN-io/tf-third-party-packages stores RPM specs to build
+29. https://github.com/OpenSDN-io/tf-third-party-packages stores RPM specs to build
 third party packages for OpenSDN components and modules.
 
-31. https://github.com/OpenSDN-io/tf-third-party-cache is a cache of third party
+30. https://github.com/OpenSDN-io/tf-third-party-cache is a cache of third party
 libraries sources used in OpenSDN.
 
-32. https://github.com/OpenSDN-io/tf-specs holds specifications (blueprints) of
+31. https://github.com/OpenSDN-io/tf-specs holds specifications (blueprints) of
 OpenSDN technical features (including the introduced earlier in Contrail,
 OpenContrail and Tungsten Fabric).
 
-33. https://github.com/OpenSDN-io/tf-operator ???
+32. https://github.com/OpenSDN-io/tf-operator provides deployment via operator.
 
-34. https://github.com/OpenSDN-io/tf-dpdk contains DPDK (https://www.dpdk.org/)
+33. https://github.com/OpenSDN-io/tf-dpdk contains DPDK (https://www.dpdk.org/)
 technology sources used in the OpenSDN data plane component.
 
-35. https://github.com/OpenSDN-io/tf-build is a collection of SCons 
-recipes used to build the OpenSDN Virtual Network Controller. ??? Moved into
-other repositories?
+34. https://github.com/OpenSDN-io/tf-build is a collection of SCons 
+recipes used to build the OpenSDN Virtual Network Controller: stores SConstruct
+and rules.py files.
 
-36. https://github.com/OpenSDN-io/tf-api-client contains schema files for
+35. https://github.com/OpenSDN-io/tf-api-client contains schema files for
 the OpenSDN control plane data types and VNC client source code.
 
-37. https://github.com/OpenSDN-io/tf-fabric-utils ???
+36. https://github.com/OpenSDN-io/tf-fabric-utils provides means to manage
+hardware using OpenSDN.
 
-38. https://github.com/OpenSDN-io/website stores source code of OpenSDN.io
-website
+37. https://github.com/OpenSDN-io/website stores source code of OpenSDN.io
+website.
